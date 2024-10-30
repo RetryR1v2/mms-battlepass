@@ -144,7 +144,7 @@ RegisterServerEvent('mms-battlepass:server:GainExp',function(src,EXPGain)
                 Citizen.Wait(250)
                 MySQL.update('UPDATE `mms_battlepass` SET expneeded = ? WHERE charidentifier = ?',{newexpneed, charIdentifier})
                 VORPcore.NotifyTip(src, _U('RecivedEXP') .. EXPGain, 10000)
-                LevelUpReward(player,newlevel)
+                LevelUpReward(src,newlevel)
             else
                 local oldexp = result[1].exp
                 local newexp = oldexp + EXPGain
@@ -206,7 +206,6 @@ RegisterServerEvent('mms-battlepass:server:RewardCollect',function()
             local GetMoney = result[1].money
             local GetItem = result[1].item
             local MoneyAmount = result[1].moneyamount
-            print(ID)
             if GetMoney == 1 then
                 Character.addCurrency(0,MoneyAmount)
             end
