@@ -17,6 +17,9 @@ Config.WHFooterLogo = '' -- must be 30x30px
 Config.WHAvatar = '' -- must be 30x30px
 
 -- Script Settings
+-- NEW
+Config.MoneyType = 0  -- The currency type (0 = money, 1 = gold, 2 = rol)
+-- END NEW
 
 Config.BattlepassCommand = 'Battlepass'
 

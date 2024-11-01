@@ -26,6 +26,7 @@
 - 1.1.0 Initial Release Version
 - 1.1.1 Removed Debug Print 
 - Fixed Small Bug
+- 1.1.2 Now Supports Diffrent Money Types
 
 # installation 
 

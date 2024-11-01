@@ -207,7 +207,7 @@ RegisterServerEvent('mms-battlepass:server:RewardCollect',function()
             local GetItem = result[1].item
             local MoneyAmount = result[1].moneyamount
             if GetMoney == 1 then
-                Character.addCurrency(0,MoneyAmount)
+                Character.addCurrency(Config.MoneyType,MoneyAmount)
             end
             if GetItem == 1 then
                 local CanCarry = exports.vorp_inventory:canCarryItem(src, ItemName, ItemAmount)
