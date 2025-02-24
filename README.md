@@ -27,6 +27,7 @@
 - 1.1.1 Removed Debug Print 
 - Fixed Small Bug
 - 1.1.2 Now Supports Diffrent Money Types
+- 1.1.3 Fixed Versionchecker
 
 # installation 
 

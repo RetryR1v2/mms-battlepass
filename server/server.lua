@@ -10,7 +10,7 @@ local function versionCheckPrint(_type, log)
 end
 
 local function CheckVersion()
-    PerformHttpRequest('https://raw.githubusercontent.com/RetryR1v2/mms-wagonmissions/main/version.txt', function(err, text, headers)
+    PerformHttpRequest('https://raw.githubusercontent.com/RetryR1v2/mms-battlepass/main/version.txt', function(err, text, headers)
         local currentVersion = GetResourceMetadata(GetCurrentResourceName(), 'version')
 
         if not text then 

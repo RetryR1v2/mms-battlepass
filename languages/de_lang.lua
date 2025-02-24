@@ -1,6 +1,6 @@
 Locales["de_lang"] = {
     BattlepassMenuHeader = 'MMS-Scripts Battlepass',
-    BattlepassMenuSubHeader = 'The Heartland Revengers',
+    BattlepassMenuSubHeader = 'Tal der Hoffnung',
     Hello = 'Hallo ',
     YourLevel = 'Dein Level: ',
     YourEXP = 'Deine Battlepass EXP: ',
